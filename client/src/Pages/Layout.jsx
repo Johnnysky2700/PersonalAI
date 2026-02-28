@@ -14,7 +14,7 @@ const Layout = () => {
   return user ? (
     <div className='flex flex-col h-screen'>
       <nav className='w-full px-8 min-h-14 flex items-center justify-between border-b border-gray-200'>
-        <img src={assets.logo} alt="" onClick={() => navigate('/')} className='h-12' />
+        <img src={assets.logo} alt="" onClick={() => navigate('/')} className='w-32 cursor-pointer sm:w-44' />
         {
           sidebar ? <X onClick={() => setSidebar(false)} className="w-6 h-6 text-gray-600 sm:hidden" />
             : <Menu onClick={() => setSidebar(true)} className="w-6 h-6 text-gray-600 sm:hidden" />
