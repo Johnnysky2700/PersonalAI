@@ -9,3 +9,11 @@
    --color-primary: #38BDF8;
   /* --color-secondary:#4F46E5;     */
 }
+
+.reset-tw, .reset-tw * {
+  all: revert !important;
+}
+
+.cl-drawerRoot{
+  z-index: 10;
+}
